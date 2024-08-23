@@ -1,18 +1,21 @@
+#### Developed by Thiyagarajan A
+#### Register no: 212222240110
+#### Date:
 # Ex.No: 02 LINEAR AND POLYNOMIAL TREND ESTIMATION
-Date:
+
 ### AIM:
 To Implement Linear and Polynomial Trend Estiamtion Using Python.
 
 ### ALGORITHM:
-Import necessary libraries (NumPy, Matplotlib)
+Load and prepare data: Load the stock data, convert 'Date' to datetime, and reset the index for model fitting.
 
-Load the dataset
+Extract features and target: Use a numerical index (X) as the feature and 'Open' prices (y) as the target.
 
-Calculate the linear trend values using least square method
+Fit models: Fit a linear regression model and a polynomial regression model (degree 2) to the data.
 
-Calculate the polynomial trend values using least square method
+Predict trends: Generate predictions for both linear and polynomial trends.
 
-End the program
+Visualize and display: Plot the actual data, linear trend, and polynomial trend, and print the trend equations.
 ### PROGRAM:
 ```
 import pandas as pd
